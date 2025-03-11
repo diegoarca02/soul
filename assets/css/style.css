@@ -20,6 +20,16 @@
     z-index: -1;
 }
 
+.info-title{
+    font-size:1.7rem;
+    font-family: "PPMori";
+}
+
+a{
+    text-decoration: none;
+    color: #000 !important;
+}
+
 @font-face {
     font-family: "BasisGrotesqueArabicPro";
     src: url(../fonts/BasisGrotesqueArabicPro-Regular.ttf)
@@ -49,6 +59,18 @@
     top: 0;
     left: 0;
 }
+
+.menu-title{
+    cursor: pointer;
+    font-family: "PPMori";
+    font-size: clamp(1.8rem, 4vw, 3rem) !important; /* Ajuste entre 1.5rem y 3rem */
+    font-weight: 200;
+}
+
+.menu-title:hover{
+    color: #868686;
+}
+
 
 .bg-cream{
     background-color: #fdf6ed !important;
